@@ -1,0 +1,6 @@
+[
+    {"id": 0, "linkName":"HOME", "linkNumber": "00", "url": "/home"},
+    {"id": 1, "linkName":"DESTINATION", "linkNumber": "01", "url": "/destination"},
+    {"id": 2, "linkName":"CREW", "linkNumber": "02", "url": "/crew"},
+    {"id": 3, "linkName":"TECHNOLOGY", "linkNumber": "03", "url": "/technology"}
+]

@@ -1,0 +1,190 @@
+.tech-container {
+    background: url('../../../public/images/technology/background-technology-desktop.jpg') center;
+    background-size: cover;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 176px;
+
+    .tech-title {
+        font-size: 28px;
+        font-weight: 400;
+        margin-left: 165px;
+
+        .tech-page-number {
+            color: #FFFFFF80;
+            margin-right: 24px;
+        }
+    }
+
+    .tech-main-section {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: space-between;
+
+        .tech-left-section {
+            align-items: center;
+            display: flex;
+            gap: 80px;
+            padding-left: 165px;
+            height: 100%;
+
+            .tech-slides-numbers {
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+
+                .tech-span {
+                    align-items: center;
+                    border: 1px solid #FFFFFF50;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    display: flex;
+                    font: 400 32px/1.5 "Bellefair", serif;
+                    height: 80px;
+                    justify-content: center;
+                    width: 80px;
+
+                    &.tech-span-active {
+                        background-color: #FFF;
+                        color: #000;
+                    }
+                }
+            }
+
+            .tech-info-container {
+                .terminology-heading {
+                    color: #D2D8F9;
+                    font-size: 16px;
+                    font-weight: 400;
+                    letter-spacing: 2.7px;
+                }
+
+                .technology-name {
+                    font: 400 56px/1.5 "Bellefair", serif;
+                    text-transform: uppercase;
+                }
+
+                .technology-description {
+                    color: #D2D8F9;
+                    font: 400 18px/1.77 "Barlow", sans-serif;
+                    max-width: 444px;
+                }
+            }
+        }
+
+        .tech-right-section {
+            align-items: center;
+            display: flex;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .tech-container {
+        gap: 60px;
+        height: 110vh;
+        padding-top: 136px;
+
+        .tech-title {
+            font-size: 24px;
+            margin-left: 38px;
+
+            .tech-page-number {
+                margin-right: 16px;
+            }
+        }
+
+        .tech-main-section {
+            flex-direction: column-reverse;
+            gap: 60px;
+
+            .tech-left-section {
+                flex-direction: column;
+                gap: 80px;
+                padding-left: 0;
+
+                .tech-slides-numbers {
+                    flex-direction: row;
+
+                    .tech-span {
+                        font-size: 24px;
+                        height: 60px;
+                        width: 60px;
+                    }
+                }
+
+                .tech-info-container {
+                    text-align: center;
+
+                    .terminology-heading {
+                        font-size: 14px;
+                    }
+
+                    .technology-name {
+                        font-size: 40px;
+                        margin-top: 16px;
+                    }
+
+                    .technology-description {
+                        font-size: 16px;
+                        margin-top: 16px;
+                    }
+                }
+            }
+
+            .tech-right-section {
+                width: 100%;
+                img {
+                    width: 100%;
+                    height: 310px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .tech-container {
+        gap: 32px;
+
+        .tech-title {
+            margin-left: 0;
+            text-align: center;
+        }
+
+        .tech-main-section {
+            gap: 32px;
+
+            .tech-left-section {
+
+                .tech-slides-numbers {
+
+                    .tech-span {
+                        height: 40px;
+                        width: 40px;
+                    }
+                }
+
+                .tech-info-container {
+
+                    .technology-name {
+                        font-size: 24px;
+                    }
+
+                    .technology-description {
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .tech-right-section {
+                img {
+                    height: 170px;
+                }
+            }
+        }
+    }
+}
