@@ -9,20 +9,6 @@ class Navbar extends React.Component {
         this.state = {burgerActive: false};
     }
 
-    // checkNavbarLinks = () => {
-    //     navbarLinks.forEach(link => {
-    //         if (window.location.pathname === link.url) {
-    //             this.setState({pageUrl: link.url})
-    //         }
-    //     })
-    // }
-    // componentDidMount() {
-    //     window.onpopstate = () => {
-    //         this.checkNavbarLinks()
-    //     }
-    //     this.checkNavbarLinks()
-    // }
-
     openBurgerMenu = () => {
         this.setState({burgerActive: !this.state.burgerActive})
     }
