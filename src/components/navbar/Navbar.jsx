@@ -17,7 +17,7 @@ class Navbar extends React.Component {
         return (
           <nav className='navbar'>
             <NavLink to='/home' className='logo'>
-                <img src='./space-tourism/images/shared/logo.svg' alt='logo'/>
+                <img src='./images/shared/logo.svg' alt='logo'/>
             </NavLink>
             <div className='burger-menu' onClick={this.openBurgerMenu}>
                 {this.state.burgerActive ? <img src='/images/shared/icon-close.svg' alt='close-icon'/> : <img src='/images/shared/icon-hamburger.svg' alt='burger-icon'/>}
