@@ -20,7 +20,7 @@ class Navbar extends React.Component {
                 <img src='./images/shared/logo.svg' alt='logo'/>
             </NavLink>
             <div className='burger-menu' onClick={this.openBurgerMenu}>
-                {this.state.burgerActive ? <img src='/images/shared/icon-close.svg' alt='close-icon'/> : <img src='/images/shared/icon-hamburger.svg' alt='burger-icon'/>}
+                {this.state.burgerActive ? <img src='./images/shared/icon-close.svg' alt='close-icon'/> : <img src='./images/shared/icon-hamburger.svg' alt='burger-icon'/>}
             </div>
             <ul className={`${this.state.burgerActive ? 'navbar-links-burger-active' : ''} navbar-links`}>
                 {navbarLinks.map(link => (
