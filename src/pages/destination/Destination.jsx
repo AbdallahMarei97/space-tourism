@@ -25,7 +25,7 @@ class Destination extends React.Component {
                     <p className='planet-description'>{this.state.planet.description}</p>
                     <div className='planet-characteristics-container'>
                         <div>
-                            <h5>AVG. DISTANCE</h5>
+                            <h5>AVG. DISTANCEssss</h5>
                             <h6>{this.state.planet.distance}</h6>
                         </div>
                         <div>
